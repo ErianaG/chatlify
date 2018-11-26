@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chatbubble {
+  background-color: #F3F3F3;
+  width: 600px;
+  min-height: 160px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.chatbubble .chatbubble--text {
+  font: 16px "Roboto", sans-serif;
+  color: #333333;
+  padding: 25px 25px 0 30px;
+}
+
+.chatbubble .chatbubble-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chatbubble .chatbubble-footer .chatbubble--name {
+  font: bold 18px "Roboto", sans-serif;
+  margin: 20px 30px 0 28px;
+}
+
+.chatbubble .chatbubble-footer .chatbubble--timestamp {
+  font: bold 12px "Roboto", sans-serif;
+  margin: 24px 0 28px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chatbubble .chatbubble-footer .chatbubble--timestamp .clock-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.chatbubble .chatbubble-footer .chatbubble--timestamp p {
+  margin-left: 5px;
+}
+
+.chatbubble:before {
+  content: "";
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -5px;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #F3F3F3;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.focused {
+  background-color: white;
+  -webkit-box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.13);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .chat--title {
+  font: 18px 'Roboto Condensed', sans-serif;
+  letter-spacing: 3.75px;
+}
+
+header .chat--date {
+  font: 18px 'Roboto', sans-serif;
+  color: #9A9A9A;
+}
+
+.header--line {
+  background-color: #EEEEEE;
+  height: 2px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+body {
+  background-color: #EEEEEE;
+  width: 800px;
+  margin: 100px auto;
+  -webkit-box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.13);
+}
+
+body .chat--background {
+  background-color: white;
+  padding: 50px;
+}
+/*# sourceMappingURL=main.css.map */
